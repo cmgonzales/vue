@@ -43,7 +43,14 @@ new Vue({
         } ,
         calculateDamage: function(min,max){
           return  Math.max(Math.floor(Math.random() * max) + 1, min)
-        }  
+        } ,
+        checkWin: function(){
+            if(this.monsterHealth <=0){
+                if(confirm('you won! new Game')){
+                    this.startGame();
+                }
+            }
+        }
 
     }
 })

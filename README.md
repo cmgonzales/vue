@@ -1,1 +1,1 @@
-Vue practice
+Vue practice monster project

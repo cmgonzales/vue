@@ -1,1 +1,1 @@
-Vue practice monster project
+Vue practice no vue templates

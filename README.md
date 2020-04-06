@@ -1,1 +1,1 @@
-Vue practice no vue templates
+templates
